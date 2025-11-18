@@ -83,7 +83,7 @@ const HowToOrder = () => {
           {/* CTA */}
           <div className="text-center mt-16">
             <a
-              href="https://wa.me/6285795140765"
+              href="https://wa.me/6282318179248"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center btn-netflix text-lg px-12 py-5"

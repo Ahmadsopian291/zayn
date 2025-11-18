@@ -20,10 +20,14 @@ const ProductCard = ({ id, name, description, icon }: ProductCardProps) => {
     <div className="card-cinematic group cursor-pointer" onClick={handleViewDetail}>
       <div className="flex flex-col items-start space-y-4">
         {/* Icon */}
-        <div className="text-6xl mb-2 group-hover:scale-110 transition-transform">
-          {icon}
+        <div className="mb-4 group-hover:scale-110 transition-transform">
+          <img
+            src={icon}
+            alt={name}
+            className="w-16 h-16 object-contain"
+          />
         </div>
-
+        
         {/* Content */}
         <div className="space-y-2 flex-1">
           <h3 className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors">

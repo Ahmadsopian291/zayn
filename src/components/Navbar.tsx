@@ -1,10 +1,14 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,6 +35,14 @@ const Navbar = () => {
     }
   };
 
+  const handleNavigateHome = () => {
+    if (location.pathname !== "/") {
+      navigate("/"); // pindah ke halaman utama
+    } else {
+      scrollToSection("#beranda"); // scroll kalau masih di halaman utama
+    }
+  };
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -41,35 +53,39 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <a
-            href="#beranda"
+
+          {/* Logo → kembali ke beranda */}
+          <button
+            onClick={handleNavigateHome}
             className="text-2xl font-bold text-primary hover:text-primary/90 transition-colors"
-            onClick={(e) => {
-              e.preventDefault();
-              scrollToSection("#beranda");
-            }}
           >
-            PremiumStore
-          </a>
+            Zayn Store
+          </button>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             {menuItems.map((item) => (
-              <a
+              <button
                 key={item.label}
-                href={item.href}
-                onClick={(e) => {
-                  e.preventDefault();
-                  scrollToSection(item.href);
+                onClick={() => {
+                  if (location.pathname !== "/") {
+                    navigate("/"); // pindah ke beranda dulu
+                    setTimeout(() => scrollToSection(item.href), 50);
+                  } else {
+                    scrollToSection(item.href);
+                  }
                 }}
                 className="text-foreground/80 hover:text-primary transition-colors font-medium"
               >
                 {item.label}
-              </a>
+              </button>
             ))}
+
             <Button
-              onClick={() => scrollToSection("#kontak")}
+              onClick={() => {
+                if (location.pathname !== "/") navigate("/");
+                setTimeout(() => scrollToSection("#kontak"), 50);
+              }}
               className="btn-netflix"
             >
               Order Sekarang
@@ -84,35 +100,6 @@ const Navbar = () => {
             {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
-
-        {/* Mobile Menu */}
-        {isMobileMenuOpen && (
-          <div className="md:hidden bg-card/95 backdrop-blur-md border-t border-border/50 py-6 animate-fade-in">
-            <div className="flex flex-col space-y-4">
-              {menuItems.map((item) => (
-                <a
-                  key={item.label}
-                  href={item.href}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    scrollToSection(item.href);
-                  }}
-                  className="text-foreground/80 hover:text-primary transition-colors font-medium px-4 py-2"
-                >
-                  {item.label}
-                </a>
-              ))}
-              <div className="px-4 pt-2">
-                <Button
-                  onClick={() => scrollToSection("#kontak")}
-                  className="btn-netflix w-full"
-                >
-                  Order Sekarang
-                </Button>
-              </div>
-            </div>
-          </div>
-        )}
       </div>
     </nav>
   );

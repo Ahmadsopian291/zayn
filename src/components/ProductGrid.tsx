@@ -1,7 +1,12 @@
 import ProductCard from "./ProductCard";
 import { products } from "@/data/products";
+import { useNavigate } from "react-router-dom";
+import { Button } from "./ui/button";
+
+
 
 const ProductGrid = () => {
+  const navigate = useNavigate();
   return (
     <section id="produk" className="py-24 relative">
       <div className="container mx-auto px-4 lg:px-8">
@@ -15,7 +20,7 @@ const ProductGrid = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-          {products.map((product, index) => (
+          {products.slice(0, 6).map((product, index) => (
             <div
               key={product.id}
               className="animate-fade-in"
@@ -25,12 +30,21 @@ const ProductGrid = () => {
                 id={product.id}
                 name={product.name}
                 description={product.description}
-                icon={product.icon}
+                icon={product.image}
               />
             </div>
           ))}
         </div>
       </div>
+      <div className="text-center mt-12">
+  <Button
+    onClick={() => navigate("/all-products")}
+    className="px-6 py-3 text-lg"
+  >
+    Lihat Semua Produk
+  </Button>
+</div>
+
     </section>
   );
 };

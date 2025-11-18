@@ -24,7 +24,7 @@ const Contact = () => {
                   <MessageSquare className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-semibold">WhatsApp</h3>
-                <p className="text-sm text-muted-foreground">+62 857-9514-0765</p>
+                <p className="text-sm text-muted-foreground">+62 823-1817-9248</p>
               </div>
 
               <div className="space-y-2">
@@ -32,7 +32,7 @@ const Contact = () => {
                   <Mail className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-semibold">Email</h3>
-                <p className="text-sm text-muted-foreground break-all">ahmadsop291@gmail.com</p>
+                <p className="text-sm text-muted-foreground break-all">MuhammadzaynRamadhani1@gmail.com</p>
               </div>
 
               <div className="space-y-2">
@@ -47,7 +47,7 @@ const Contact = () => {
             {/* CTA Button */}
             <div className="pt-4">
               <a
-                href="https://wa.me/6285795140765"
+                href="https://wa.me/6282318179248"
                 target="_blank"
                 rel="noopener noreferrer"
               >
