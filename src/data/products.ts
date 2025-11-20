@@ -481,5 +481,461 @@ export const products: Product[] = [
     ],
   },
 
+  // ==============================
+  // AMOZON PRIME VIDEO
+  // ==============================
+  {
+    id: "Amazone Prime Video",
+    name: "Amazone Prime Video",
+    slug: "amazone-prime-video",
+    description: "Nikmati akses tak terbatas ke ribuan film, serial TV, dan tayangan eksklusif Amazon Originals dalam kualitas HD dan 4K. Streaming kapan saja dan di mana saja dengan akun premium Amazon Prime Video.",
+    image: "/images/amazone.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Bulan", price: 16000 },
+        ],
+      },
+      {
+        type: "Private",
+        durations: [
+          { label: "1 Bulan", price: 28000 },
+        ],
+      },
+    ],
+  },
 
+  // ==============================
+  // Vision+
+  // ==============================
+  {
+    id: "Vision+ Sports",
+    name: "Vision+ Sports",
+    slug: "vision-plus-sports",
+    description: "Tonton pertandingan olahraga dunia seperti MotoGP, Bundesliga, Formula E, dan lainnya secara langsung di Vision+ Sports. Nikmati streaming gratis dengan kualitas HD dan berbagai pilihan channel olahraga terbaik, langsung dari genggamanmu!",
+    image: "/images/vision.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Bulan", price: 23000 },
+        ],
+      },
+      {
+        type: "Private",
+        durations: [
+          { label: "1 Bulan", price: 32000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // RCTI+
+  // ==============================
+  {
+    id: "RCTI+ Premium",
+    name: "RCTI+ Premium",
+    slug: "rcti-plus-premium",
+    description: "Streaming acara TV favorit, sinetron, film, berita, hingga pertandingan olahraga langsung dari RCTI, MNCTV, GTV, dan iNews. Nikmati konten eksklusif, original series, dan siaran ulang kapan saja, di mana saja, gratis di RCTI+",
+    image: "/images/rcti.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Bulan", price: 20000 },
+        ],
+      },
+      {
+        type: "Private",
+        durations: [
+          { label: "1 Bulan", price: 31000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // LOKLOK
+  // ==============================
+  {
+    id: "Loklok Premium",
+    name: "Loklok Premium",
+    slug: "loklok-premium",
+    description: "Tonton film, drama Korea, China, anime, dan variety show terbaru secara gratis di Loklok. Nikmati tampilan antarmuka yang mudah digunakan, update episode cepat, serta pilihan subtitle dan dubbing dalam berbagai bahasa",
+    image: "/images/loklok.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Bulan Basic (No Tv)", price: 26000 },
+          { label: "1 Bulan Standard (Tv + Reelshot)", price: 33000 },
+        ],
+      },
+      {
+        type: "Private",
+        durations: [
+          { label: "1 Bulan Basic (No Tv)", price: 51000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // Youku VIP
+  // ==============================
+  {
+    id: "Youku Vip",
+    name: "Youku Vip",
+    slug: "youku-vip",
+    description: "Tonton drama China, variety show, film, dan anime populer langsung di Youku. Nikmati tayangan eksklusif dan original dengan kualitas tinggi, update cepat, serta pilihan subtitle berbagai bahasa. Semua hiburan favoritmu tersedia gratis dan mudah diakses!",
+    image: "/images/youku.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Bulan", price: 17000 },
+          { label: "3 Bulan", price: 28000 },
+          { label: "1 Tahun", price: 38000 },
+        ],
+      },
+      {
+        type: "Private",
+        durations: [
+          { label: "1 Bulan", price: 48000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // Bstasion VIP
+  // ==============================
+  {
+    id: "Bstasion Vip",
+    name: "Bstasion Vip",
+    slug: "bstasion-vip",
+    description: "Nikmati tayangan anime populer, drama Korea, China, variety show, dan film terbaru secara legal di Bstation. Dapatkan pengalaman menonton berkualitas tinggi dengan subtitle berbagai bahasa, update episode cepat, dan komunitas penggemar yang aktif. Semua hiburan favoritmu tersedia gratis dan mudah diakses!",
+    image: "/images/bstation.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Bulan", price: 17000 },
+          { label: "3 Bulan", price: 23000 },
+          { label: "1 Tahun", price: 38000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // Spotify Premium
+  // ==============================
+  {
+    id: "Spotify Premium",
+    name: "Spotify Premium",
+    slug: "spotify-premium",
+    description: "Streaming jutaan lagu, album, dan podcast dari seluruh dunia secara gratis di Spotify. Temukan musik sesuai suasana hati, buat playlist sendiri, dan nikmati audio berkualitas tinggi kapan saja, di mana saja.",
+    image: "/images/spotify.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Bulan", price: 18000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // Apple Music Premium
+  // ==============================
+  {
+    id: "Apple Music Premium",
+    name: "Apple Music Premium",
+    slug: "apple-music-premium",
+    description: "Streaming lebih dari 100 juta lagu, album, dan playlist eksklusif dari artis dunia hanya di Apple Music. Nikmati audio berkualitas tinggi, bebas iklan, dan fitur lirik real-time. Dengarkan secara online atau offline, kapan saja dan di mana saja.",
+    image: "/images/applemusic.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Bulan", price: 15000 },
+          { label: "2 Bulan", price: 22000 },
+          { label: "3 Bulan", price: 29000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // Remini Pro
+  // ==============================
+  {
+    id: "Remini Pro",
+    name: "Remini Pro",
+    slug: "remini-pro",
+    description: "Remini adalah aplikasi pengedit foto berbasis AI yang mampu mengubah gambar lama, buram, atau rusak menjadi foto HD yang tajam dan jelas. Dengan satu sentuhan, kamu bisa memperbaiki detail wajah, warna, dan latar belakang, serta menghasilkan foto profesional dari selfie biasa. Cocok untuk menghidupkan kembali kenangan lama dan membuat konten visual berkualitas tinggi",
+    image: "/images/remini.png",
+    services: [
+      {
+        type: "Android",
+        durations: [
+          { label: "1 Bulan Sharing", price: 20000 },
+        ],
+      },
+      {
+        type: "Ios",
+        durations: [
+          { label: "1 Bulan Sharing", price: 20000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // Canva Pro
+  // ==============================
+  {
+    id: "Canva Pro",
+    name: "Canva Pro",
+    slug: "canva-pro",
+    description: "Canva Pro menawarkan fitur lengkap untuk membuat desain grafis, presentasi, poster, konten media sosial, dan lainnya secara cepat dan praktis. Nikmati akses ke jutaan template premium, elemen desain eksklusif, penghapusan latar belakang otomatis, serta penyimpanan cloud dan kolaborasi tim. Cocok untuk kreator, pelajar, bisnis, dan siapa pun yang ingin hasil desain maksimal tanpa ribet.",
+    image: "/images/canva.png",
+    services: [
+      {
+        type: "Canva Pro",
+        durations: [
+          { label: "1 Bulan", price: 14000 },
+          { label: "3 Bulan", price: 17000 },
+          { label: "6 Bulan", price: 23000 },
+          { label: "1 Tahun", price: 26000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // Canva Education
+  // ==============================
+  {
+    id: "Canva Education",
+    name: "Canva Education",
+    slug: "canva-education",
+    description: "Canva Pro menawarkan fitur lengkap untuk membuat desain grafis, presentasi, poster, konten media sosial, dan lainnya secara cepat dan praktis. Nikmati akses ke jutaan template premium, elemen desain eksklusif, penghapusan latar belakang otomatis, serta penyimpanan cloud dan kolaborasi tim. Cocok untuk kreator, pelajar, bisnis, dan siapa pun yang ingin hasil desain maksimal tanpa ribet.",
+    image: "/images/canva.png",
+    services: [
+      {
+        type: "Canva Pro",
+        durations: [
+          { label: "1 Bulan", price: 22000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // Lightroom Premium
+  // ==============================
+  {
+    id: "Lightroom Premium",
+    name: "Lightroom Premium",
+    slug: "lightroom-premium",
+    description: "Adobe Lightroom adalah aplikasi editing foto berbasis AI yang memungkinkan kamu menyempurnakan gambar dengan cepat dan presisi. Atur pencahayaan, warna, dan detail hanya dalam beberapa sentuhan. Cocok untuk fotografer, kreator konten, atau siapa pun yang ingin hasil foto berkualitas tinggi langsung dari smartphone atau desktop",
+    image: "/images/ligrom.png",
+    services: [
+      {
+        type: "Preset",
+        durations: [
+          { label: "500+ Preset", price: 15000 },
+          { label: "1000+ Preset", price: 18000 },
+        ],
+      },
+      {
+        type: "Premium",
+        durations: [
+          { label: "Sharing 1 Tahun", price: 23000 },
+          
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // alight motion Premium
+  // ==============================
+  {
+    id: "Alight Motion",
+    name: "Alight Motion",
+    slug: "alight-motion-premium",
+    description: "Alight Motion adalah aplikasi editing video dan animasi yang powerful untuk smartphone. Buat efek visual, motion graphics, transisi, dan animasi berkualitas tinggi dengan fitur layer, keyframe, dan preset yang lengkap. Cocok untuk kreator konten, editor, dan siapa pun yang ingin hasil video sinematik langsung dari HP.",
+    image: "/images/alig.png",
+    services: [
+      {
+        type: "Tahunan",
+        durations: [
+          { label: "1 Tahun", price: 23000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // VSCO X
+  // ==============================
+  {
+    id: "VSCO X",
+    name: "VSCO X",
+    slug: "vsco-x",
+    description: "VSCO adalah aplikasi kamera dan editing foto yang populer di kalangan kreator visual. Tersedia berbagai filter estetik, alat editing profesional, dan fitur komunitas untuk berbagi karya. Cocok untuk kamu yang ingin hasil foto bergaya artistik dan konsisten, langsung dari smartphone.",
+    image: "/images/vsco.png",
+    services: [
+      {
+        type: "Tahunan",
+        durations: [
+          { label: "1 Tahun", price: 23000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // Picart Gold
+  // ==============================
+  {
+    id: "Picart Gold",
+    name: "Picart Gold",
+    slug: "picart-gold",
+    description: "Picsart Gold adalah versi premium dari aplikasi editing populer Picsart, yang menawarkan akses ke ribuan stiker, font, efek, dan template eksklusif. Nikmati fitur penghapus background otomatis, alat AI canggih, dan tanpa iklan. Cocok untuk kreator konten yang ingin hasil visual lebih profesional dan estetik langsung dari smartphone.",
+    image: "/images/picart.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Bulan", price: 15000 },
+        ],
+      },
+      {
+        type: "Private",
+        durations: [
+          { label: "1 Bulan", price: 20000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // unfold 
+  // ==============================
+  {
+    id: "Unfold",
+    name: "Unfold Premium",
+    slug: "unfold-premium",
+    description: "Unfold adalah aplikasi desain visual yang memudahkan kamu membuat story Instagram, TikTok, dan media sosial lainnya dengan template elegan dan minimalis. Tersedia ratusan layout, font premium, dan alat editing kreatif untuk hasil konten yang stylish dan konsisten. Cocok untuk kreator, brand, dan siapa pun yang ingin tampil menonjol di media sosial.",
+    image: "/images/unfold.png",
+    services: [
+      {
+        type: "Android",
+        durations: [
+          { label: "1 Tahun", price: 23000 },
+        ],
+      },
+      {
+        type: "Ios",
+        durations: [
+          { label: "1 Tahun", price: 28000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // Wattpad Premium 
+  // ==============================
+  {
+    id: "Wattpad",
+    name: "Wattpad Premium",
+    slug: "wattpad-premium",
+    description: "Wattpad adalah platform sosial untuk membaca dan menulis cerita orisinal dari berbagai genre seperti romansa, fantasi, horor, hingga fan fiction. Bergabunglah dengan jutaan pembaca dan penulis di seluruh dunia, temukan kisah-kisah menarik, dan bagikan ceritamu sendiri. Semua bisa diakses gratis, langsung dari smartphone atau web",
+    image: "/images/wattpad.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Bulan", price: 16000 },
+          { label: "6 Bulan", price: 26000 },
+        ],
+      },
+      
+    ],
+  },
+
+  // ==============================
+  // Get Contact 
+  // ==============================
+  {
+    id: "Get Contact",
+    name: "Get Contact Premium",
+    slug: "get-contact-premium",
+    description: "Wattpad adalah platform sosial untuk membaca dan menulis cerita orisinal dari berbagai genre seperti romansa, fantasi, horor, hingga fan fiction. Bergabunglah dengan jutaan pembaca dan penulis di seluruh dunia, temukan kisah-kisah menarik, dan bagikan ceritamu sendiri. Semua bisa diakses gratis, langsung dari smartphone atau web",
+    image: "/images/get.png",
+    services: [
+      {
+        type: "Bulanan",
+        durations: [
+          { label: "1 Bulan", price: 20000 },
+        ],
+      },
+      
+    ],
+  },
+
+  // ==============================
+  // Grammarly Premium
+  // ==============================
+  {
+    id: "Grammarly",
+    name: "Grammarly Premium",
+    slug: "grammarly-premium",
+    description: "Grammarly adalah asisten menulis berbasis AI yang membantu kamu memperbaiki tata bahasa, ejaan, tanda baca, dan gaya penulisan secara real-time. Cocok untuk email profesional, tugas kuliah, konten media sosial, atau dokumen penting lainnya. Nikmati fitur premium seperti pengecekan nada, saran kosakata, dan deteksi plagiarisme untuk hasil tulisan yang lebih jelas, efektif, dan meyakinkan.",
+    image: "/images/grammarly.png",
+    services: [
+      {
+        type: "Bulanan",
+        durations: [
+          { label: "1 Bulan", price: 20000 },
+        ],
+      },
+      
+    ],
+  },
+
+  // ==============================
+  // Zoom Pro
+  // ==============================
+  {
+    id: "Zoom Pro",
+    name: "Zoom Pro",
+    slug: "zoom-pro",
+    description: "Grammarly adalah asisten menulis berbasis AI yang membantu kamu memperbaiki tata bahasa, ejaan, tanda baca, dan gaya penulisan secara real-time. Cocok untuk email profesional, tugas kuliah, konten media sosial, atau dokumen penting lainnya. Nikmati fitur premium seperti pengecekan nada, saran kosakata, dan deteksi plagiarisme untuk hasil tulisan yang lebih jelas, efektif, dan meyakinkan.",
+    image: "/images/zoom.png",
+    services: [
+      {
+        type: "Harian",
+        durations: [
+          { label: "1 Hari", price: 16000 },
+          { label: "7 Hari", price: 28000 },
+          { label: "14 Hari", price: 33000 },
+        ],
+      },
+      {
+        type: "Bulanan",
+        durations: [
+          { label: "1 Bulan", price: 50000 },
+        ],
+      },
+    ],
+  },
 ];

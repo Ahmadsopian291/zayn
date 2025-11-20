@@ -52,7 +52,7 @@ const Features = () => {
             return (
               <div
                 key={index}
-                className="card-cinematic group hover:scale-105 transition-all duration-300 animate-fade-in"
+                className="card-cinematic group hover:scale-105 transition-all duration-300 animate-fade-in hover:color-blue-600"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="flex flex-col items-start space-y-4">
