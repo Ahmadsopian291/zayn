@@ -1381,7 +1381,7 @@ export const products: Product[] = [
     id: "BEAUTYPLUS ",
     name: "BeautyPlus Premium",
     slug: "beautyplus-premium",
-    description: "Scribd adalah layanan berbasis langganan yang menyediakan akses ke jutaan buku, audiobook, majalah, dokumen, dan sheet musik dalam satu aplikasi. Dengan model “all-you-can-read”, pengguna bisa membaca atau mendengarkan konten favorit kapan saja, baik di web maupun aplikasi mobile.",
+    description: "BeautyPlus adalah aplikasi kamera dan editing foto yang dirancang khusus untuk mempercantik selfie. Dengan teknologi beautification, pengguna bisa menghaluskan kulit, memutihkan gigi, memperbesar mata, menambahkan makeup virtual, serta menggunakan filter estetik untuk hasil foto yang lebih menarik.",
     image: "/images/beauty.png",
     services: [
       {
