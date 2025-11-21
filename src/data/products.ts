@@ -1393,22 +1393,5 @@ export const products: Product[] = [
     ],
   },
 
-  // ==============================
-  // BEAUTYPLUS    
-  // ==============================
-  {
-    id: "BEAUTYPLUS ",
-    name: "BeautyPlus Premium",
-    slug: "beautyplus-premium",
-    description: "Scribd adalah layanan berbasis langganan yang menyediakan akses ke jutaan buku, audiobook, majalah, dokumen, dan sheet musik dalam satu aplikasi. Dengan model “all-you-can-read”, pengguna bisa membaca atau mendengarkan konten favorit kapan saja, baik di web maupun aplikasi mobile.",
-    image: "/images/beauty.png",
-    services: [
-      {
-        type: "Sharing",
-        durations: [
-          { label: "1 Bulan", price: 28000 },
-        ],
-      },
-    ],
-  },
+  
 ];
