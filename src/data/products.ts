@@ -919,21 +919,494 @@ export const products: Product[] = [
     id: "Zoom Pro",
     name: "Zoom Pro",
     slug: "zoom-pro",
-    description: "Grammarly adalah asisten menulis berbasis AI yang membantu kamu memperbaiki tata bahasa, ejaan, tanda baca, dan gaya penulisan secara real-time. Cocok untuk email profesional, tugas kuliah, konten media sosial, atau dokumen penting lainnya. Nikmati fitur premium seperti pengecekan nada, saran kosakata, dan deteksi plagiarisme untuk hasil tulisan yang lebih jelas, efektif, dan meyakinkan.",
+    description: "Zoom Pro adalah versi premium dari Zoom yang dirancang untuk kebutuhan profesional, bisnis, dan tim kecil. Nikmati durasi meeting hingga 30 jam, kapasitas hingga 100 peserta, serta fitur tambahan seperti AI Companion, penjadwalan otomatis, rekaman cloud, dan kolaborasi dokumen tanpa batas",
     image: "/images/zoom.png",
     services: [
       {
         type: "Harian",
         durations: [
-          { label: "1 Hari", price: 16000 },
-          { label: "7 Hari", price: 28000 },
-          { label: "14 Hari", price: 33000 },
+          { label: "1 Hari 100 Participant", price: 16000 },
+          { label: "7 Hari 100 Participant", price: 28000 },
+          { label: "14 Hari 100 Participant", price: 33000 },
         ],
       },
       {
         type: "Bulanan",
         durations: [
-          { label: "1 Bulan", price: 50000 },
+          { label: "1 Bulan 100 Participant", price: 50000 },
+        ],
+      },
+    ],
+  },
+
+  
+  // ==============================
+  // Inshot Premium
+  // ==============================
+  {
+    id: "Inshot Pro",
+    name: "Inshot Pro",
+    slug: "inshot-pro",
+    description: "InShot adalah aplikasi editing video dan foto all-in-one yang mudah digunakan langsung dari smartphone. Kamu bisa memotong, menggabungkan, menambahkan musik, teks, stiker, serta membuat efek transisi keren untuk konten media sosial. Selain itu, InShot juga mendukung pengaturan rasio layar, filter estetik, dan ekspor berkualitas tinggi. Cocok untuk kreator konten, vlogger, maupun pengguna sehari-hari yang ingin hasil visual lebih menarik dan profesional.",
+    image: "/images/inshot.png",
+    services: [
+      {
+        type: "Lifetime",
+        durations: [
+          { label: "Lifetimet", price: 28000 },
+          
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // Microsoft 365
+  // ==============================
+  {
+    id: "Microsoft 365",
+    name: "Microsoft 365",
+    slug: "microsoft-365",
+    description: "Microsoft 365 menghadirkan paket lengkap aplikasi produktivitas seperti Word, Excel, PowerPoint, dan Outlook yang terintegrasi dengan layanan cloud OneDrive serta kolaborasi real-time melalui Teams dan SharePoint. Dengan akses dokumen dari mana saja dan keamanan data tingkat tinggi, Microsoft 365 membantu individu, bisnis, maupun institusi pendidikan bekerja lebih efisien, aman, dan fleksibel.",
+    image: "/images/mic.png",
+    services: [
+      {
+        type: "Invite",
+        durations: [
+          { label: "1 Bulan", price: 14000 },
+          
+        ],
+      },
+      {
+        type: "Admin + Invite 5 User",
+        durations: [
+          { label: "1 Bulan", price: 23000 },
+          
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // Mathway Premium
+  // ==============================
+  {
+    id: "Mathway Premium",
+    name: "Mathway Premium",
+    slug: "mathway-premium",
+    description: "Mathway adalah aplikasi kalkulator cerdas yang membantu menyelesaikan berbagai soal matematika mulai dari aljabar, trigonometri, kalkulus, hingga statistik. Cukup masukkan soal atau ambil foto persamaan, Mathway akan memberikan jawaban instan beserta langkah penyelesaiannya. Dengan akses mudah dari smartphone maupun web, Mathway cocok untuk pelajar, mahasiswa, maupun siapa saja yang ingin memahami matematika lebih cepat dan praktis.",
+    image: "/images/math.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Tahun", price: 26000 },
+          
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // Capcut Pro
+  // ==============================
+  {
+    id: "Capcut Pro",
+    name: "Capcut Pro",
+    slug: "capcut-pro",
+    description: "CapCut adalah aplikasi editing video all-in-one yang memudahkan kamu membuat konten berkualitas tinggi langsung dari smartphone. Dengan fitur lengkap seperti pemotongan video, transisi, filter estetik, efek visual, teks animasi, hingga musik bebas hak cipta, CapCut cocok untuk kreator konten, vlogger, maupun pengguna media sosial. Dukungan AI editing, template siap pakai, dan ekspor berkualitas tinggi menjadikan CapCut pilihan utama untuk menghasilkan video kreatif dengan cepat dan praktis.",
+    image: "/images/capcut.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "7 Hari", price: 15000 },
+          { label: "1 Bulan", price: 25000 },
+          
+        ],
+      },
+      {
+        type: "Private",
+        durations: [
+          { label: "1 Bulan", price: 63000 },
+          
+        ],
+      },
+    ],
+  },
+
+  
+  // ==============================
+  // Claud AI Pro
+  // ==============================
+  {
+    id: "Claude AI Pro",
+    name: "Claude AI Pro",
+    slug: "claude-ai-pro",
+    description: "Claude AI adalah asisten AI generasi baru yang menonjol karena fokus pada keamanan, akurasi, dan kemampuan reasoning. Cocok untuk pelajar, profesional, maupun tim yang ingin berkolaborasi dengan dukungan AI yang lebih aman dan cerdas.",
+    image: "/images/claude.png",
+    services: [
+      {
+        type: "Private Full Garansi",
+        durations: [
+  
+          { label: "1 Bulan", price: 88000 },
+          
+        ],
+      },
+      {
+        type: "Private No Garansi",
+        durations: [
+          { label: "1 Bulan", price: 188000 },
+          
+        ],
+      },
+    ],
+  },
+
+   // ==============================
+  // ChatGPT Pro
+  // ==============================
+  {
+    id: "ChatGPT Pro",
+    name: "ChatGPT Pro",
+    slug: "chatgpt-pro",
+    description: "ChatGPT adalah model kecerdasan buatan yang dikembangkan oleh OpenAI untuk membantu dalam percakapan, penulisan, pemecahan masalah, dan ide kreatif. Dengan kemampuan memahami bahasa alami, ChatGPT bisa digunakan untuk menjawab pertanyaan, membuat teks, memberikan penjelasan, hingga mendukung pekerjaan sehari-hari seperti menulis email, membuat konten, atau belajar materi baru.",
+    image: "/images/gpt.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+  
+          { label: "1 Bulan", price: 33000 },
+          
+        ],
+      },
+      {
+        type: "Private",
+        durations: [
+          { label: "1 Bulan", price: 208000 },
+          
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // Meitu
+  // ==============================
+  {
+    id: "Meitu",
+    name: "Meitu Pro",
+    slug: "meitu-pro",
+    description: "Meitu adalah aplikasi editing foto populer dari Tiongkok yang dikenal dengan fitur beautification canggih. Dengan sekali sentuhan, kamu bisa mempercantik wajah, menghaluskan kulit, menambahkan makeup virtual, hingga membuat efek artistik. Selain itu, Meitu juga menyediakan filter estetik, kolase, dan alat editing profesional untuk hasil foto yang lebih kreatif.",
+    image: "/images/meitu.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+  
+          { label: "1 Bulan", price: 28000 },
+          
+        ],
+      },
+      {
+        type: "Private",
+        durations: [
+          { label: "1 Bulan", price: 53000 },
+          
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // PERPLEXITY AI
+  // ==============================
+  {
+    id: "Perplexity AI",
+    name: "Perplexity AI Pro",
+    slug: "perplexity-ai-pro",
+    description: "Perplexity adalah platform pencarian berbasis AI yang menggabungkan kemampuan search engine dengan kecerdasan buatan untuk memberikan jawaban yang akurat, ringkas, dan disertai sumber terpercaya. Tidak hanya menampilkan daftar tautan, Perplexity menyajikan informasi dalam bentuk penjelasan langsung, lengkap dengan referensi, sehingga pengguna bisa memahami topik lebih cepat",
+    image: "/images/PERPLEXITY.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+  
+          { label: "1 Bulan", price: 37000 },
+          
+        ],
+      },
+      
+    ],
+  },
+
+  // ==============================
+  // HUMATA AI
+  // ==============================
+  {
+    id: "Humata AI",
+    name: "Humata AI Pro",
+    slug: "humata-ai-pro",
+    description: "Humata AI adalah asisten dokumen berbasis kecerdasan buatan yang dirancang untuk membaca, menganalisis, dan menjawab pertanyaan dari file PDF secara instan.",
+    image: "/images/HUMATA.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+  
+          { label: "1 Bulan", price: 28000 },
+          
+        ],
+      },
+      
+    ],
+  },
+
+  // ==============================
+  // SCITE AI
+  // ==============================
+  {
+    id: "Scite AI",
+    name: "Scite AI Pro",
+    slug: "scite-ai-pro",
+    description: "Scite AI adalah platform berbasis kecerdasan buatan yang membantu peneliti, mahasiswa, dan profesional menemukan serta memahami literatur ilmiah dengan lebih cepat. Tidak hanya menampilkan daftar artikel, Scite memberikan konteks bagaimana sebuah publikasi dikutip oleh penelitian lain—apakah mendukung, menentang, atau sekadar menyebutkan.",
+    image: "/images/SCITE.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+  
+          { label: "1 Bulan", price: 28000 },
+          
+        ],
+      },
+      
+    ],
+  },
+
+  // ==============================
+  // GAMMA AI
+  // ==============================
+  {
+    id: "Gamma AI",
+    name: "Gamma AI Pro",
+    slug: "gamma-ai-pro",
+    description: "Gamma AI adalah platform berbasis kecerdasan buatan untuk membuat presentasi, dokumen, dan website dengan cepat dan menarik.",
+    image: "/images/gama.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+  
+          { label: "1 Bulan", price: 28000 },
+          
+        ],
+      },
+      
+    ],
+  },
+
+  // ==============================
+  // QUILLBOT
+  // ==============================
+  {
+    id: "Quillbot",
+    name: "Quillbot Pro",
+    slug: "quillbot-pro",
+    description: "QuillBot adalah alat bantu menulis yang menggunakan kecerdasan buatan untuk parafrase, meringkas, dan memeriksa tata bahasa secara instan. Cocok untuk pelajar, penulis, maupun profesional yang ingin meningkatkan kualitas tulisan mereka.",
+    image: "/images/quil.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+  
+          { label: "1 Bulan", price: 19000 },
+          
+        ],
+      },
+      {
+        type: "Private",
+        durations: [
+  
+          { label: "1 Bulan", price: 43000 },
+          
+        ],
+      },
+      
+    ],
+  },
+
+  // ==============================
+  // DEEPL PRO
+  // ==============================
+  {
+    id: "Deepl Pro",
+    name: "Deepl Pro",
+    slug: "deepl-pro",
+    description: "DeepL adalah platform penerjemahan berbasis kecerdasan buatan yang dikenal dengan kualitas terjemahan yang lebih alami dan kontekstual dibanding banyak layanan lain. Mendukung berbagai bahasa utama dunia, DeepL membantu pengguna menerjemahkan teks, dokumen, hingga percakapan secara instan.",
+    image: "/images/deepl.png",
+    services: [
+      
+      
+      {
+        type: "Private",
+        durations: [
+  
+          { label: "1 Bulan", price: 20000 },
+          
+        ],
+      },
+      
+    ],
+  },
+
+  // ==============================
+  // GEMINI AI 
+  // ==============================
+  {
+    id: "Gemini AI",
+    name: "Gemini AI Pro",
+    slug: "gemini-ai-pro",
+    description: "DeepL adalah platform penerjemahan berbasis kecerdasan buatan yang dikenal dengan kualitas terjemahan yang lebih alami dan kontekstual dibanding banyak layanan lain. Mendukung berbagai bahasa utama dunia, DeepL membantu pengguna menerjemahkan teks, dokumen, hingga percakapan secara instan.",
+    image: "/images/gemini.png",
+    services: [
+      
+      
+      {
+        type: "Private",
+        durations: [
+  
+          { label: "1 Bulan", price: 28000 },
+          
+        ],
+      },
+      
+    ],
+  },
+
+  // ==============================
+  // CAMSCANNER  
+  // ==============================
+  {
+    id: "CAMSCANNER",
+    name: "CamScanner Pro",
+    slug: "camscanner-pro",
+    description: "CamScanner adalah aplikasi mobile yang mengubah ponsel menjadi scanner portabel. Dengan sekali foto, pengguna bisa mengubah dokumen kertas, kwitansi, kartu nama, atau catatan menjadi file digital berkualitas tinggi.",
+    image: "/images/cam.png",
+    services: [
+      {
+        type: "Private",
+        durations: [
+          { label: "1 Bulan", price: 26000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // ILOVEPDF   
+  // ==============================
+  {
+    id: "ILOVEPDF",
+    name: "ILOVEPDF Premium",
+    slug: "ilovepdf-premium",
+    description: "iLovePDF adalah platform online yang menyediakan berbagai fitur untuk mengelola file PDF dengan mudah dan cepat. Pengguna bisa menggabungkan, memisahkan, mengompres, mengonversi ke Word/Excel/PowerPoint, menambahkan tanda tangan, hingga melindungi dokumen dengan password.",
+    image: "/images/ILOVEPDF.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Tahun", price: 23000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // ILOVEPDF   
+  // ==============================
+  {
+    id: "ILOVEPDF",
+    name: "ILOVEPDF Premium",
+    slug: "ilovepdf-premium",
+    description: "iLovePDF adalah platform online yang menyediakan berbagai fitur untuk mengelola file PDF dengan mudah dan cepat. Pengguna bisa menggabungkan, memisahkan, mengompres, mengonversi ke Word/Excel/PowerPoint, menambahkan tanda tangan, hingga melindungi dokumen dengan password.",
+    image: "/images/ILOVEPDF.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Bulan", price: 14000 },
+        ],
+      },
+      {
+        type: "Private",
+        durations: [
+          { label: "1 Bulan", price: 28000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // Scribd   
+  // ==============================
+  {
+    id: "Scribd",
+    name: "Scribd Premium",
+    slug: "scribd-premium",
+    description: "Scribd adalah layanan berbasis langganan yang menyediakan akses ke jutaan buku, audiobook, majalah, dokumen, dan sheet musik dalam satu aplikasi. Dengan model “all-you-can-read”, pengguna bisa membaca atau mendengarkan konten favorit kapan saja, baik di web maupun aplikasi mobile.",
+    image: "/images/scribd.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Bulan", price: 14000 },
+        ],
+      },
+      {
+        type: "Private",
+        durations: [
+          { label: "1 Bulan", price: 28000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // BEAUTYPLUS    
+  // ==============================
+  {
+    id: "BEAUTYPLUS ",
+    name: "BeautyPlus Premium",
+    slug: "beautyplus-premium",
+    description: "Scribd adalah layanan berbasis langganan yang menyediakan akses ke jutaan buku, audiobook, majalah, dokumen, dan sheet musik dalam satu aplikasi. Dengan model “all-you-can-read”, pengguna bisa membaca atau mendengarkan konten favorit kapan saja, baik di web maupun aplikasi mobile.",
+    image: "/images/beauty.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Bulan", price: 28000 },
+        ],
+      },
+    ],
+  },
+
+  // ==============================
+  // BEAUTYPLUS    
+  // ==============================
+  {
+    id: "BEAUTYPLUS ",
+    name: "BeautyPlus Premium",
+    slug: "beautyplus-premium",
+    description: "Scribd adalah layanan berbasis langganan yang menyediakan akses ke jutaan buku, audiobook, majalah, dokumen, dan sheet musik dalam satu aplikasi. Dengan model “all-you-can-read”, pengguna bisa membaca atau mendengarkan konten favorit kapan saja, baik di web maupun aplikasi mobile.",
+    image: "/images/beauty.png",
+    services: [
+      {
+        type: "Sharing",
+        durations: [
+          { label: "1 Bulan", price: 28000 },
         ],
       },
     ],
