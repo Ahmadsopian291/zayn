@@ -20,9 +20,17 @@ const Footer = () => {
             <p className="text-xs text-muted-foreground mt-1">
               Layanan customer support 24/7 via WhatsApp
             </p>
-            <p>© {currentYear} Web Made in MadDWeb.</p>
+            
+          </div>
+        </div>
+      </div>
+      <div className="container mx-auto">
+        <div className="grid gap-8 mb-8">
+          <div className="pt-4  text-center text-sm text-muted-foreground">
+          
+          <p>© {currentYear} Web Made in MadDWeb.</p>
           <p>Order Pembuatan Website Dibawah Sini</p>
-          <li>
+          <li className="list-none">
                 <a
                   href="https://wa.me/6285795140765"
                   target="_blank"
@@ -32,9 +40,16 @@ const Footer = () => {
                   WhatsApp: +62 857-9514-0765
                 </a>
               </li>
-          </div>
         </div>
-      </div>
+
+          
+         
+        </div>
+
+        
+          
+        </div>
+      
     </footer>
   );
 };
