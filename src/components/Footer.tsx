@@ -16,12 +16,22 @@ const Footer = () => {
             <p className="text-sm text-muted-foreground">
               © {currentYear} Zayn Store. All rights reserved.
             </p>
-            <p className="text-sm text-muted-foreground">
-              © {currentYear} Made in MadDWeb.
-            </p>
+            
             <p className="text-xs text-muted-foreground mt-1">
               Layanan customer support 24/7 via WhatsApp
             </p>
+            <p>© {currentYear} Web Made in MadDWeb.</p>
+          <p>Order Pembuatan Website Dibawah Sini</p>
+          <li>
+                <a
+                  href="https://wa.me/6285795140765"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
+                  WhatsApp: +62 857-9514-0765
+                </a>
+              </li>
           </div>
         </div>
       </div>
